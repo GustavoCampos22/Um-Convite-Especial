@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Um Convite Especial ❤️</title>
+        <link rel="website icon" href="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg">
+    </head>
+    <body>
+        <p class="instruction">Clique no Coração!</p>
+        <div class="container">
+            <label>
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg">
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            <div class="message">
+                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Boa noite Fernanda!</h1>
+                <p> 
+                    <span>
+                        &emsp; Fico muito feliz por essa nova conquista na sua vida, seu próprio apartamento em Piracicaba!
+                         Você é uma pessoa incrível, simpática, estudiosa, dedicada, trabalhadeira e cheia de luz.
+                    </span>
+                    <br> <br>
+                    <p> 
+                    <span>
+                        &emsp; Seu esforço e dedicação te trouxeram até aqui, e eu admiro muito isso em você.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp; Estava pensando em algo especial... e queria te perguntar de um jeito diferente, por meio dessa menssagem que fiz com meu conhecimento em programação.
+                    </span>      
+                </p>
+                <br> <br>
+                <span>
+                        &emsp; Então... Que tal sairmos juntos para aproveitar um tempo incrível?
+                    </span>      
+                </p>
+                <br> <br>
+                <span>
+                        &emsp;  Que tal no dia <b>30 de agosto, às 19h</b>? 💕
+                    </span>      
+                </p>
+                <br> 
+                 <div class="sincere">
+                    <p style="font-weight: bold;"> Com amor,</p>
+                    <p>Gustavo</p>
+                 </div>
+
+                <div class="botoes">
+                <button onclick="resposta('sim')">SIM</button>
+                <button onclick="resposta('nao')">NÃO</button>
+                </div>
+                <p id="resposta"></p>
+            </div>
+        </div>
+        
+        <script src="jquery.js"></script>
+        <script src="jquery2.1.js"></script>
+        <script defer src="valentine-confession.js"></script>
+    </body>
+</html>
+
